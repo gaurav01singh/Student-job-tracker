@@ -57,6 +57,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 For any questions or feedback, please contact:
-- **Name**: Your Name
-- **Email**: your-email@example.com
-- **GitHub**: [your-username](https://github.com/your-username)
+- **Name**: Gaurav Kumar Singh
+- **Email**: gauravsingh02195@gmail.com
+- **GitHub**: [gaurav01singh](https://github.com/gaurav01singh)
