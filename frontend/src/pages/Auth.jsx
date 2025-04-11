@@ -18,11 +18,11 @@ const Auth = () => {
     e.preventDefault();
     try {
       if (isLogin) {
-        const res = await axios.post("http://localhost:5000/api/auth/login", form);
+        const res = await axios.post("https://student-job-tracker-backend.up.railway.app/api/auth/login", form);
         login(res.data.token);
         navigate("/");
       } else {
-        await axios.post("http://localhost:5000/api/auth/register", form);
+        await axios.post("https://student-job-tracker-backend.up.railway.app/api/auth/register", form);
         alert("Signup successful. You can login now.");
         setIsLogin(true);
       }
